@@ -4,10 +4,27 @@
 }
 
 .main{
-    background-image: ;
+    background-image: url(/assets/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background: center center;
+    background-repeat: no-repeat;
 }
 
 .main .box{
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.1;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content:space-between;
+
 }
